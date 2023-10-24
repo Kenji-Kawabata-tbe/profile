@@ -18,15 +18,17 @@
 - MySQL | PostgreSQL
 ### クラウド
 - AWS
-  - VPC | S3 | CloudFront | Lambda | ELB | EC2 | ECS | Fargate | Beanstalk | Route53 | IAM | RDS(MySQL|PostgreSQL) | ElastiCache(Redis) | SQS | SNS | CloudFormation | CloudWatch | Step Functions
+  - IAM | VPC | S3 | ELB | EC2 | ECS(EC2,Fargate) | Beanstalk | ECR | RDS(MySQL|PostgreSQL) | ElastiCache(Redis) | SNS | Step Functions | Lambda | CloudFormation | CloudWatch | CloudFront | Athena  | Route53
 - Azure
   -  Azure ActiveDirectory | Virtual Machines | App Service
 ### CI/CD
-  -  GitHub | GitHub Actions | CircleCI | Azure Devops
+  -  GitHub | GitHub Actions | CircleCI | Travis-ci | Azure Devops
 ### IaC
   -  AWS CDK | CloudFormation | terraform | Ansible | Packer
 ### monitoring
   -  CloudWatch | Datadog | mackerel | NewRelic | nagios | Zabbix
+### その他
+  - Jenkins | Rundeck | JP1
 ## 主な業務経歴
 ### エレベーターサイネージの広告配信サービスの構築、運用(2022年4月〜現在)
 - アプリケーションの刷新に伴う新システムの構築
@@ -74,10 +76,31 @@
 - terraformを使用しての自動構築
 - CircleCIを使用してのデプロイ自動化
 
-
 ### 音楽系ECサイトの構築、運用/保守(2016年10月〜2019年3月)
 - デプロイフローの整備
 - Packerを使用して構築手順のテンプレート化
 - サーバのOSアップデート
 - ミドルウェアの導入、チューニング
+
+### 通信キャリアでのシステム構築、運用/保守(2015年1月〜2016年9月)
+- Webサイトのサーバ構築/設定変更、監視設定、ロードバランサーの設定
+- 通信量測定システムの構築/運用
+- ミドルウェアの脆弱性対応、関係部署との調整
+- 障害対応(ログ調査、復旧作業)
+- 保守会社へのマニュアル作成/定期連絡
+
+### 金融システム向け業務システムの構築、運用サポート(2014年4月〜2014年12月)
+- フレームワークテスト
+- システム改修に伴う資料作成、ファイル作成、手順書作成
+- 業務自動化を目的としたスクリプトの設計、作成、動作確認
+
+### 大手企業の社内人材管理システムの運用(2012年11月〜2014年3月)
+- 障害対応
+- 設定変更作業、作業に伴うバッチファイル/手順書の作成
+- JP1の運用、ジョブ作成
+
+### 通信キャリアと協業した携帯電話システム運用(2008年6月〜2011年9月)
+- 設定変更作業および手順書の作成
+- 客先提案資料の作成
+- 案件のスケジュール管理
 
